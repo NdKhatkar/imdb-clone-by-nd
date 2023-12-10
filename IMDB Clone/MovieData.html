@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Imdb_Clone</title>
+    <link rel="stylesheet" href="MoviesData.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- logo -->
+        <div id="header">
+            <a href="index.html">
+            <div class="logo">
+                
+                    <p>IMDb</p>
+               
+            </div></a>
+            <!-- logo div ends here -->
+            <div class="search-box">
+
+                <!-- inputbox managment -->
+                <div class="input-control">
+                    <div class="searchBar">
+                        <div id="inputBox">
+                            <input type="text" placeholder="Search Movi Title ..." id="movie-search-box"
+                                onkeyup="findMovies()" onclick="findMovies()">
+                        </div>
+                        <a href="" id="searchIcon"><div id="SearchButton"><i class="material-icons">search</i></div></a>
+                    </div>
+                    <div class="search-list" id="search-list">
+
+                    </div>
+                </div>
+                <a href="favouritesPage.html">
+                    <div id="favourit"><i class="material-icons">bookmark</i></div>
+                </a>
+            </div>
+        </div>
+
+        <div id="result-container">
+
+        </div>
+
+
+
+
+        <footer class="footer">
+            <h2>Objective of this Site</h2>
+            This site is purely devloved for study purpose by a student NARENDER SINGH KHATKAR
+            <br />
+            <b>E-mail :</b> nd.khatkar@gmail.com
+            <br />
+            you can follow me on
+
+        </footer>
+    </div>
+
+    <script src="MovieData.js"></script>
+</body>
+
+</html>
